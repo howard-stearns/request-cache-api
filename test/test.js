@@ -116,7 +116,7 @@ describe("request cache api", function () {
 		});
 	});
 	it("can handle lots of requests", function (done) {
-		var i, resultCount = 0, target = 1000; // Not a load test.
+		var i, resultCount = 0, target = 100; // Not a load test. This isn't a test-harness exercise!
 		this.timeout(500 * target); // Tell the test harness we'll be a while.
 		function requestHandler(error, response, content) { // Let's not make functions in a for loop!
 			if (error) { console.log('enqueue error', i, error); }

@@ -12,5 +12,13 @@ be HTML) and stores the result.  The user asks for the status of the
 job id and if the job is complete, he gets a response that includes
 the HTML for www.google.com"
 
+## API
+
 Please see test/test.js for a spec of how the API is defined.
 
+## Operation
+'''
+npm start
+npm test # in another terminal
+npm stop
+'''
