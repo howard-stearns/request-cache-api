@@ -17,8 +17,8 @@ the HTML for www.google.com"
 Please see test/test.js for a spec of how the API is defined.
 
 ## Operation
-'''
+```
 npm start
 npm test # in another terminal
 npm stop
-'''
+```
